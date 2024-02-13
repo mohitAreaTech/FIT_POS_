@@ -1,0 +1,317 @@
+.maindiv {
+  display: flex;
+  justify-content: center;
+  /* margin: auto; */
+  align-items: center;
+  margin-top: 20px;
+}
+.image-info {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.image-info img {
+  /* border: 1px solid black; */
+  width: 100%;
+}
+.form-pos-login {
+  display: block;
+  justify-content: center;
+  /* margin-top: 2px; */
+  border: 3px solid #f1f1f1;
+  width: 35%;
+  /* border: 1px solid black; */
+  background-color: #ffffff;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.form-pos-login input[type="email"],
+.form-pos-login input[type="password"],
+.form-pos-login input[type="number"] {
+  width: 90%;
+  padding: 15px 10px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #2690d0;
+  box-sizing: border-box;
+  border-top: black;
+  border-left: none;
+  border-right: none;
+}
+.form-control {
+  width: 100%;
+  height: 50px !important;
+  padding: 15px 10px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #2690d0;
+  box-sizing: border-box;
+}
+.form-pos-login input:focus {
+  /* border: none; */
+  outline: none;
+}
+.submitButtonLogin {
+  background-color: #2690d0;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  font-weight: 600;
+  font-size: larger;
+  border-radius: 10px;
+}
+
+.submitButtonLogin:hover {
+  opacity: 0.9;
+  background: #195053;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 50px 0 10px 0;
+}
+
+img.avatar {
+  width: 80%;
+  margin-top: 30px;
+}
+.image-info {
+  width: 60%;
+}
+.container {
+  padding: 20px 0px;
+  margin: 20px;
+  border: none;
+}
+.container-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.login-wrap {
+  display: block;
+  justify-content: center;
+  /* margin-top: 2px; */
+  border: 3px solid #f1f1f1;
+  width: 35%;
+  /* border: 1px solid black; */
+  background-color: #ffffff;
+  height: auto;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+  height: 350px;
+}
+input#umail {
+  width: 95%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: none;
+}
+.form-floating {
+  font-size: small;
+}
+.remember input {
+  margin: 25px;
+  color: rgb(2, 81, 155);
+}
+.remember {
+  display: flex;
+  margin-top: 1rem;
+}
+.remember span {
+  margin: 25px;
+}
+.remember span a {
+  color: #2690d0;
+  text-decoration: none;
+}
+.forgot-password-class {
+  float: right;
+  /* padding-top: 16px; */
+  color: #2690d0;
+}
+.form-pos-login h2 {
+  margin-left: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #2690d0;
+  margin-top: 2rem;
+  font-size: 1.6rem;
+}
+
+.login-wrap h2 {
+  /* margin-left: 15px; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #2690d0;
+  margin-top: 1rem;
+  font-size: 1.6rem;
+}
+.he-sign {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.he-sign a {
+  margin: 5px;
+  text-decoration: none;
+  color: #2690d0;
+  font-weight: 700;
+}
+.label-class-name {
+  color: #2690d0;
+}
+/* Change styles for span and cancel button on extra small screens */
+
+@media screen and (max-width: 800px) {
+  .form-pos-login {
+    /* display: none; */
+    /* float: none; */
+    width: 70%;
+    height: 380px;
+    flex-wrap: wrap;
+  }
+  .container-1 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .image-info {
+    display: none;
+    /* float: none; */
+    width: 100%;
+    height: 100px;
+  }
+  .login-wrap {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  span.forgot-password-class {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+  .login-wrap {
+    width: 80%;
+  }
+  .form-pos-login {
+    /* display: none; */
+    /* float: none; */
+    width: 70%;
+    height: 380px;
+    flex-wrap: wrap;
+    height: 400px;
+  }
+}
+
+@media screen and (min-device-width: 200px) and (max-device-width: 350px) {
+  span.forgot-password-class {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+  .login-wrap {
+    width: 80%;
+  }
+  .image-info {
+    display: none;
+    /* float: none; */
+    width: 100%;
+    height: 100px;
+  }
+  .login-wrap {
+    width: 80%;
+  }
+  input#umail {
+    width: 80%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: none;
+    font-size: 1rem;
+  }
+  .form-pos-login {
+    /* display: none; */
+    /* float: none; */
+    width: 70%;
+    height: 380px;
+    flex-wrap: wrap;
+    height: 450px;
+  }
+  .container-1 {
+    width: 100%;
+  }
+  .form-pos-login input[type="email"],
+  .form-pos-login input[type="password"],
+  .form-pos-login input[type="number"] {
+    width: 80%;
+    padding: 5px 5px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #2690d0;
+    box-sizing: border-box;
+    border-top: black;
+    border-left: none;
+    border-right: none;
+  }
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  .form-pos-login h2 {
+    margin-left: 15px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #2690d0;
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+  .label-class-name {
+    color: #2690d0;
+    font-size: small;
+  }
+  button#btn-size {
+    width: 50%;
+  }
+  input.forget-input {
+    width: 80%;
+  }
+  .submitButtonLogin {
+    background-color: #2690d0;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    font-weight: 600;
+    font-size: larger;
+    border-radius: 10px;
+  }
+  .login-wrap {
+    height: 380px;
+  }
+}
